@@ -29,7 +29,7 @@ En este caso se usan solamente dos resortes, uno para el pulgar y otro para los 
 
 # Medidas del Pasiente
 Para la generación de la órtesis en el software OpenScad, se necesitan 7 medidas del antebrazo y mano. A continuación, se hablará de cada una de ellas.
-<div align="center" id="contenedor_fig1">
+<div align="center">
     <a href="url"><img src="Pictures/Medidas/medidas_brazo.png" alt="medidas_brazo" height="160" ></a>
     <p>
         <i>Medidas del antebrazo</i>
@@ -39,7 +39,7 @@ Para empezar, se explicarán las dos primeras variables correspondientes a las m
 
 Como recomendación se tiene que a la variable `forearm_width` se le debe sumar 10-12 milímetros aproximadamente (offset) debido a que se utiliza fómix en una pieza para que no lastime la piel del usuario, de forma que reduce el diámetro inicial.
 
-<div align="center" id="contenedor_fig1">
+<div align="center">
     <a href="url"><img src="Pictures/Medidas/medidas_mano.png" alt="medida1_dedo" height="135" ></a>
     <p>
         <i>Medidas de la mano</i>
@@ -47,7 +47,7 @@ Como recomendación se tiene que a la variable `forearm_width` se le debe sumar 
 </div>
 Para la mano se tendrá una sola variable, la cual se llamará `hand_length`, esta será medida desde la muñeca hasta la parte superior o tope del dedo meñique como se observa en la figura anterior.
 
-<div align="center" id="contenedor_fig1">
+<div align="center">
     <a href="url"><img src="Pictures/Medidas/medidas _dedo.png" alt="medida1_dedo" height="100" ></a>
     <p>
         <i>Medidas del dedo</i>
@@ -67,12 +67,12 @@ Las piezas a generar son 11:
 | Pieza | Descripción | Cantidad | Figura | Archivo |
 | :--- | :--- | :---: | :---: | :---: |
 | Hand ring | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/1 Hand ring - generado.png" align="center" alt="pieza1" style="max-height: 75px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L55) |
-| Hand Stag Straight | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/2 Hand Stag Straight - generado.png" align="center" alt="pieza1" style="max-height: 75px" ></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L263) |
-| Thumb Stag | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/3 Thumb Stag - generado.png" align="center" alt="pieza1" style="max-height: 90px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L444) |
-| Overhand | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/4 Overhand - generado.png" align="center" alt="pieza1" style="max-height: 90px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L221) |
-| Fingers | - | 5 | <a href="url"><img src="Pictures/Piezas generadas/5 Fingers - generado.png" align="center" alt="pieza1"  style="max-height: 120px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L532) |
-| Knut botton | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/6 Knut botton - generado.png" align="center" alt="pieza1"  style="max-height: 75px"></a> | [Knut_1_0_bottom_m4nut.stl](ortesis_openscad/Knut_1_0_bottom_m4nut.stl) |
-| Knut top | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/6 Knut top - generado.png" align="center" alt="pieza1"  style="max-height: 75px"></a> | [Knut_1_0_top_plug4mm.stl](ortesis_openscad/Knut_1_0_top_plug4mm.stl) |
+| Hand Stag Straight | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/2 Hand Stag Straight - generado.png" align="center" alt="pieza2" style="max-height: 75px" ></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L263) |
+| Thumb Stag | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/3 Thumb Stag - generado.png" align="center" alt="pieza3" style="max-height: 90px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L444) |
+| Overhand | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/4 Overhand - generado.png" align="center" alt="pieza4" style="max-height: 90px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L221) |
+| Fingers | - | 5 | <a href="url"><img src="Pictures/Piezas generadas/5 Fingers - generado.png" align="center" alt="pieza5"  style="max-height: 120px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L532) |
+| Knut botton | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/6 Knut botton - generado.png" align="center" alt="pieza6"  style="max-height: 75px"></a> | [Knut_1_0_bottom_m4nut.stl](ortesis_openscad/Knut_1_0_bottom_m4nut.stl) |
+| Knut top | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/6 Knut top - generado.png" align="center" alt="pieza7"  style="max-height: 75px"></a> | [Knut_1_0_top_plug4mm.stl](ortesis_openscad/Knut_1_0_top_plug4mm.stl) |
 
 
 Como vemos en la tabla, las primeras 5 piezas mencionadas las podemos obtener del archivo OpenScad que programamos, pero las últimas 2 piezas no son parametrizadas. Esas son piezas que no deben de ser modificadas proporcionadas por 
