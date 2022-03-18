@@ -53,7 +53,8 @@ Para la mano se tendrá una sola variable, la cual se llamará `hand_length`, es
         <i>Medidas del dedo</i>
     </p>
 </div>
-Como se puede observar en la figura anterior, para los dedos se tienen 4 medidas
+Como se puede observar en la figura anterior, para los dedos se tienen 4 medidas:
+
 - `FingerLength` es medido desde el inicio del falange distal hasta la punta del dedo
 - `FingerWidth` es el ancho del dedo en la zona de la articuñación interfalángica distal
 - `FingerTip` es medido desde el nacimiento de la uña hasta la punta del dedo
