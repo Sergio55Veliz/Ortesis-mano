@@ -1,6 +1,6 @@
 
 # Ortesis dinámica extensora de mano
-<a href="url"><img src="Pictures/Thingivers1.png" align="right" alt="niño"  style="max-height: 180px"></a>
+<a href="url"><img src="Pictures/Thingivers1.png" align="right" alt="niño" width=275px height=100% style="max-height: 180px"></a>
 En este repositorio se encuentra la parametrización de una órtesis dinámica extensora para la movilidad de las manos.
 El diseño de este sistema esta dirigido a personas con problemas  en las articulaciones o tendones que les impida abrir las manos pero si tengan la capacidad de cerrarlas.
 El diseño lo obtuvimos de Thingiverse en el repositorio del usuario Emanuel Teljemo (insertar link).
@@ -19,18 +19,18 @@ En este caso se usan solamente dos resortes, uno para el pulgar y otro para los 
 
 | Elemeto | Cantidad | Figura |
 | :--- | :---: | :---: |
-| Filamento PLA | 1 | <a href="url"><img src="Pictures/Materiales/pla.png" align="ricenterght" alt="PLA" style="max-height: 75px" ></a> |
-| Hilo de Nylon (no elástico) | 1 | <a href="url"><img src="Pictures/Materiales/nylon.png" align="center" alt="nylon" style="max-height: 75px" ></a> |
-| Resorte o muelle | 2 | <a href="url"><img src="Pictures/Materiales/muelle.png" align="center" alt="muelle" style="max-height: 75px" ></a> |
-| Tornillo M5x10mm <br> Tornillo M5x30mm <br>y sus respectivas tuercas | 6 <br>2 <br> ... | <a href="url"><img src="Pictures/Materiales/tornillos.png" align="center" alt="tornillos" style="max-height: 75px"></a> |
-| Velcro | 1 | <a href="url"><img src="Pictures/Materiales/velcro.png" align="center" alt="velcro" style="max-height: 75px" ></a> |
-| Fomix | 1 | <a href="url"><img src="Pictures/Materiales/fomix.png" align="center" alt="fomix" style="max-height: 75px" ></a> |
+| Filamento PLA | 1 | <a href="url"><img src="Pictures/Materiales/pla.png" align="ricenterght" alt="PLA" width=80px height=100% style="max-height: 75px" ></a> |
+| Hilo de Nylon (no elástico) | 1 | <a href="url"><img src="Pictures/Materiales/nylon.png" align="center" alt="nylon" width=75px height=100% style="max-height: 75px" ></a> |
+| Resorte o muelle | 2 | <a href="url"><img src="Pictures/Materiales/muelle.png" align="center" alt="muelle" width=127px height=100% style="max-height: 75px" ></a> |
+| Tornillo M5x10mm <br> Tornillo M5x30mm <br>y sus respectivas tuercas | 6 <br>2 <br> ... | <a href="url"><img src="Pictures/Materiales/tornillos.png" align="center" alt="tornillos" width=75px height=100% style="max-height: 75px"></a> |
+| Velcro | 1 | <a href="url"><img src="Pictures/Materiales/velcro.png" align="center" alt="velcro" width=75px height=100% style="max-height: 75px" ></a> |
+| Fomix | 1 | <a href="url"><img src="Pictures/Materiales/fomix.png" align="center" alt="fomix" width=75px height=100% style="max-height: 75px" ></a> |
 
 
 # Medidas del Paciente
 Para la generación de la órtesis en el software OpenScad, se necesitan 7 medidas del antebrazo y mano. A continuación, se hablará de cada una de ellas.
 <div align="center">
-    <a href="url"><img src="Pictures/Medidas/medidas_brazo.png" alt="medidas_brazo" height="160" ></a>
+    <a href="url"><img src="Pictures/Medidas/medidas_brazo.PNG" alt="medidas_brazo" height="160px" ></a>
     <p>
         <i>Medidas del antebrazo</i>
     </p>
@@ -40,7 +40,7 @@ Para empezar, se explicarán las dos primeras variables correspondientes a las m
 Como recomendación se tiene que a la variable `forearm_width` se le debe sumar 10-12 milímetros aproximadamente (offset) debido a que se utiliza fómix en una pieza para que no lastime la piel del usuario, de forma que reduce el diámetro inicial.
 
 <div align="center">
-    <a href="url"><img src="Pictures/Medidas/medidas_mano.png" alt="medidas_mano" height="135" ></a>
+    <a href="url"><img src="Pictures/Medidas/medidas_mano.PNG" alt="medidas_mano" height="135px" ></a>
     <p>
         <i>Medidas de la mano</i>
     </p>
@@ -48,7 +48,7 @@ Como recomendación se tiene que a la variable `forearm_width` se le debe sumar 
 Para la mano se tendrá una sola variable, la cual se llamará `hand_length`, esta será medida desde la muñeca hasta la parte superior o tope del dedo meñique como se observa en la figura anterior.
 
 <div align="center">
-    <a href="url"><img src="Pictures/Medidas/medidas _dedo.png" alt="medidas_dedo" height="100" ></a>
+    <a href="url"><img src="Pictures/Medidas/medidas _dedo.PNG" alt="medidas_dedo" height="100px" ></a>
     <p>
         <i>Medidas del dedo</i>
     </p>
@@ -64,16 +64,15 @@ Cabe recalcar que este proceso de medición se debe de realizar para los cinco d
 
 # Piezas generadas
 Las piezas a generar son 11:
-(Insertar tabla con columnas: Nombre, cantidad, foto, donde obtenerla)
-| Pieza | Descripción | Cantidad | Figura | Archivo |
-| :--- | :--- | :---: | :---: | :---: |
-| Hand ring | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/1 Hand ring - generado.png" align="center" alt="pieza1" style="max-height: 75px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L55) |
-| Hand Stag Straight | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/2 Hand Stag Straight - generado.png" align="center" alt="pieza1" style="max-height: 75px" ></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L263) |
-| Thumb Stag | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/3 Thumb Stag - generado.png" align="center" alt="pieza1" style="max-height: 90px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L444) |
-| Overhand | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/4 Overhand - generado.png" align="center" alt="pieza1" style="max-height: 90px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L221) |
-| Fingers | - | 5 | <a href="url"><img src="Pictures/Piezas generadas/5 Fingers - generado.png" align="center" alt="pieza1"  style="max-height: 120px"></a> | [ORTESIS.scad](ortesis_openscad/ORTESIS.scad#L532) |
-| Knut botton | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/6 Knut botton - generado.png" align="center" alt="pieza1"  style="max-height: 75px"></a> | [Knut_1_0_bottom_m4nut.stl](ortesis_openscad/Knut_1_0_bottom_m4nut.stl) |
-| Knut top | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/6 Knut top - generado.png" align="center" alt="pieza1"  style="max-height: 75px"></a> | [Knut_1_0_top_plug4mm.stl](ortesis_openscad/Knut_1_0_top_plug4mm.stl) |
+| Pieza | Descripción | Cantidad | Figura |
+| :--- | :--- | :---: | :---: |
+| [Hand ring](ortesis_openscad/ORTESIS.scad#L55) | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/1 Hand ring - generado.png" align="center" alt="pieza1" width=111px height=100% style="max-height: 75px"></a> |
+| [Hand Stag Straight](ortesis_openscad/ORTESIS.scad#L263) | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/2 Hand Stag Straight - generado.png" align="center" alt="pieza2" width=173px height=100% style="max-height: 75px" ></a> |
+| [Thumb Stag](ortesis_openscad/ORTESIS.scad#L444) | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/3 Thumb Stag - generado.png" align="center" alt="pieza3" width=144px height=100% style="max-height: 90px"></a> |
+| [Overhand](ortesis_openscad/ORTESIS.scad#L221) | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/4 Overhand - generado.png" align="center" alt="pieza4" width=138px height=100% style="max-height: 90px"></a> |
+| [Fingers](ortesis_openscad/ORTESIS.scad#L532) | - | 5 | <a href="url"><img src="Pictures/Piezas generadas/5 Fingers - generado.png" align="center" alt="pieza5" width=100px height=100% style="max-height: 120px"></a> |
+| [Knut botton](ortesis_openscad/Knut_1_0_bottom_m4nut.stl) | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/6 Knut botton - generado.png" align="center" alt="pieza6" width=75px height=100% style="max-height: 75px"></a> |
+| [Knut top](ortesis_openscad/Knut_1_0_top_plug4mm.stl) | - | 1 | <a href="url"><img src="Pictures/Piezas generadas/6 Knut top - generado.png" align="center" alt="pieza7" width=75px height=100% style="max-height: 75px"></a> |
 
 
 Como vemos en la tabla, las primeras 5 piezas mencionadas las podemos obtener del archivo OpenScad que programamos, pero las últimas 2 piezas no son parametrizadas. Esas son piezas que no deben de ser modificadas proporcionadas por 
@@ -88,11 +87,11 @@ Para generar las piezas, Se deben de seguir los siguientes pasos:
 # Configuración del Software de impresión
 Nosotros utilizamos el software Cura para la impresión, pero básicamente todos se pueden onfigurar con los mismos parámetros especificados. Los parámetros de impresión utilizados para la impresión son los siguientes:
 
-<div style="display: grid; grid-template-columns: auto auto; grid-gap: 5px; margin: auto; max-width: 620px">
-    <div style="grid-column: 1/2; margin: auto; padding: 10px; max-width: 274px;">
+<div width=100% style="display: grid; grid-template-columns: auto auto; grid-gap: 5px; margin: auto; max-width: 620px">
+    <div height=528 width=100% style="grid-column: 1/2; margin: auto; padding: 10px; max-width: 274px;">
         <a href="url"><img src="Pictures/Config Cura/conf_cura_1.png" alt="conf_cura1" width="274px" ></a>
     </div>
-    <div style="margin: auto; padding: 10px; max-width: 274px;">
+    <div height=528 width=100% style="margin: auto; padding: 10px; max-width: 274px;">
         <a href="url" style="grid-column: 2/2;"><img src="Pictures/Config Cura/conf_cura_2.png"  alt="conf_cura2" width="274px" ></a>
         <a href="url" style="grid-column: 2/2;"><img src="Pictures/Config Cura/conf_cura_3.png"  alt="conf_cura3" width="274px" ></a>
     </div>
