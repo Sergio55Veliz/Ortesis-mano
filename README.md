@@ -3,7 +3,7 @@
 <a href="url"><img src="Pictures/Thingivers1.png" align="right" alt="niño" width=275px height=100% style="max-height: 180px"></a>
 En este repositorio se encuentra la parametrización de una órtesis dinámica extensora para la movilidad de las manos.
 El diseño de este sistema esta dirigido a personas con problemas  en las articulaciones o tendones que les impida abrir las manos pero si tengan la capacidad de cerrarlas.
-El diseño lo obtuvimos de Thingiverse en el repositorio del usuario Emanuel Teljemo (insertar link).
+El diseño lo obtuvimos de [Thingiverse](https://www.thingiverse.com/thing:1064647) en el repositorio del usuario Emanuel Teljemo.
 
 # Softwares
 Se usaron dos softwares. 
@@ -29,15 +29,19 @@ En este caso se usan solamente dos resortes, uno para el pulgar y otro para los 
 
 # Medidas del Paciente
 Para la generación de la órtesis en el software OpenScad, se necesitan 7 medidas del antebrazo y mano. A continuación, se hablará de cada una de ellas.
+
+
 <div align="center">
     <a href="url"><img src="Pictures/Medidas/medidas_brazo.PNG" alt="medidas_brazo" height="160px" ></a>
     <p>
         <i>Medidas del antebrazo</i>
     </p>
 </div>
+
 Para empezar, se explicarán las dos primeras variables correspondientes a las medidas del antebrazo, como se observa en la figura anterior, se tiene que la variable `forearm_length` es la mitad de la longitud del antebrazo, es decir, L/2. Luego se tiene que `forearm_width` es el ancho del antebrazo, cabe recalcar que dicho ancho será medido en L/2, esto es de suma importancia ya que el antebrazo no tiene un ancho uniforme a lo largo del mismo.
 
 Como recomendación se tiene que a la variable `forearm_width` se le debe sumar 10-12 milímetros aproximadamente (offset) debido a que se utiliza fómix en una pieza para que no lastime la piel del usuario, de forma que reduce el diámetro inicial.
+
 
 <div align="center">
     <a href="url"><img src="Pictures/Medidas/medidas_mano.PNG" alt="medidas_mano" height="135px" ></a>
@@ -45,7 +49,9 @@ Como recomendación se tiene que a la variable `forearm_width` se le debe sumar 
         <i>Medidas de la mano</i>
     </p>
 </div>
+
 Para la mano se tendrá una sola variable, la cual se llamará `hand_length`, esta será medida desde la muñeca hasta la parte superior o tope del dedo meñique como se observa en la figura anterior.
+
 
 <div align="center">
     <a href="url"><img src="Pictures/Medidas/medidas _dedo.PNG" alt="medidas_dedo" height="100px" ></a>
@@ -53,6 +59,7 @@ Para la mano se tendrá una sola variable, la cual se llamará `hand_length`, es
         <i>Medidas del dedo</i>
     </p>
 </div>
+
 Como se puede observar en la figura anterior, para los dedos se tienen 4 medidas:
 
 - `FingerLength` es medido desde el inicio del falange distal hasta la punta del dedo
@@ -76,26 +83,20 @@ Las piezas a generar son 11:
 
 
 Como vemos en la tabla, las primeras 5 piezas mencionadas las podemos obtener del archivo OpenScad que programamos, pero las últimas 2 piezas no son parametrizadas. Esas son piezas que no deben de ser modificadas proporcionadas por 
-Emanuel Teljemo de su repositorio en Thingiverse (insertar link a su repositorio de nuevo).
+Emanuel Teljemo de su repositorio en [Thingiverse](https://www.thingiverse.com/thing:1064647).
 
 Para generar las piezas, Se deben de seguir los siguientes pasos:
- 1. Tomarle las medidas necesarias al paciente e ingresar los parámetros especificados en el archivo [ORTESIS.scad](ortesis_openscad/ORTESIS.scad) desde la línea 13 a la 34
+ 1. Tomarle las medidas necesarias al paciente e ingresar los parámetros especificados en el archivo `ORTESIS.scad` desde la [línea 13 a la 34](ortesis_openscad/ORTESIS.scad#L13)
  2. Especificar si es para la mano derecha o la izquierda [(línea 10)](ortesis_openscad/ORTESIS.scad#L10)
  3. Especificar qué pieza se quiere generar [(línea 6)](ortesis_openscad/ORTESIS.scad#L6)
- 4. Repetir el 3er paso para todas las piezas
+ 4. Repetir el 3er paso para todas las piezas.
+
 
 # Configuración del Software de impresión
 Nosotros utilizamos el software Cura para la impresión, pero básicamente todos se pueden onfigurar con los mismos parámetros especificados. Los parámetros de impresión utilizados para la impresión son los siguientes:
 
-<div width=100% style="display: grid; grid-template-columns: auto auto; grid-gap: 5px; margin: auto; max-width: 620px">
-    <div height=528 width=100% style="grid-column: 1/2; margin: auto; padding: 10px; max-width: 274px;">
-        <a href="url"><img src="Pictures/Config Cura/conf_cura_1.png" alt="conf_cura1" width="274px" ></a>
-    </div>
-    <div height=528 width=100% style="margin: auto; padding: 10px; max-width: 274px;">
-        <a href="url" style="grid-column: 2/2;"><img src="Pictures/Config Cura/conf_cura_2.png"  alt="conf_cura2" width="274px" ></a>
-        <a href="url" style="grid-column: 2/2;"><img src="Pictures/Config Cura/conf_cura_3.png"  alt="conf_cura3" width="274px" ></a>
-    </div>
-</div>
+<a href="url"><img src="Pictures/config-cura.png" align="center" alt="conf_cura" width="550px" ></a>
+
 <br><br><br>
 
 # Ensamblaje del las piezas impresas
