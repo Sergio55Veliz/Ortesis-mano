@@ -3,7 +3,7 @@
 <a href="url"><img src="Pictures/Thingivers1.png" align="right" alt="niño" width=275px height=100% style="max-height: 180px"></a>
 En este repositorio se encuentra la parametrización de una órtesis dinámica extensora para la movilidad de las manos.
 El diseño de este sistema esta dirigido a personas con problemas  en las articulaciones o tendones que les impida abrir las manos pero si tengan la capacidad de cerrarlas.
-El diseño lo obtuvimos de [Thingiverse](https://www.thingiverse.com/thing:1064647) en el repositorio del usuario Emanuel Teljemo.
+El diseño se lo obtuvo de [Thingiverse](https://www.thingiverse.com/thing:1064647) en el repositorio del usuario Emanuel Teljemo.
 
 # Softwares
 Se usaron dos softwares. 
